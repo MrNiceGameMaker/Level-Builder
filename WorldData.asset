@@ -1,0 +1,507 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c140a642f9b28043ab390cf26571ad0, type: 3}
+  m_Name: WorldData
+  m_EditorClassIdentifier: 
+  worlds:
+  - worldName: Earth
+    worldPrefab: {fileID: 1733945558841920, guid: 300f80108a63f48618cb4a1c8b8c1e86, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 154c771e4baa634478403132e9ce0dd3, type: 2}
+    horizontalOutPlatformColor: {r: 0.39122257, g: 0.8238993, b: 0.4385959, a: 1}
+    horizontalInPlatformColor: {r: 0.25343138, g: 0.54088044, b: 0.2889588, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.173
+    levels:
+    - {fileID: 4900000, guid: 3f3162004f120664887f8fc255ec71d3, type: 3}
+    - {fileID: 4900000, guid: e9cd7ed622787c34f9b1fe89ea099a7c, type: 3}
+    - {fileID: 4900000, guid: e3f70a6a65a73a2438bddb32bbe4936c, type: 3}
+    - {fileID: 4900000, guid: 7446fc78a0e06a8408578cb323126721, type: 3}
+    - {fileID: 4900000, guid: 792764f448ee73d4e9b6c70478dacaa3, type: 3}
+  - worldName: Moon
+    worldPrefab: {fileID: 1408581670749804, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.85098046, g: 0.85098046, b: 0.85098046, a: 0}
+    horizontalInPlatformColor: {r: 0.42138356, g: 0.42138356, b: 0.42138356, a: 1}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.15
+    levels:
+    - {fileID: 4900000, guid: 2b4ba1b89a9cabc43ad9de6dac13cd73, type: 3}
+    - {fileID: 4900000, guid: cdc1a79e50383ad46addb5229717bf45, type: 3}
+    - {fileID: 4900000, guid: e80517e084967a34c94bbe1988667300, type: 3}
+    - {fileID: 4900000, guid: e99199620cd5ec546af30886ab18ed5c, type: 3}
+    - {fileID: 4900000, guid: 0d654a89d14c1d44ea4a21b2d7f7909e, type: 3}
+  - worldName: Station
+    worldPrefab: {fileID: 5758457985603824548, guid: f0427fa84aa310540bd6144a3cfae527, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 02114ace36b892f44bbdcffff817d786, type: 2}
+    horizontalOutPlatformColor: {r: 0.47763136, g: 0.6144874, b: 0.8679245, a: 0}
+    horizontalInPlatformColor: {r: 0.25453892, g: 0.33321464, b: 0.49056602, a: 0}
+    verticalOutPlatformColor: {r: 0.23909657, g: 0.19161125, b: 0.8522012, a: 0}
+    verticalInPlatformColor: {r: 0.30136263, g: 0.30570048, b: 0.72327036, a: 0}
+    aplhaValue: 0.15
+    levels:
+    - {fileID: 4900000, guid: fd0765d51ce2a9749a6c6e4f980d0c97, type: 3}
+    - {fileID: 4900000, guid: aee5443d3b11ca34a8e61014e103901f, type: 3}
+    - {fileID: 4900000, guid: ceb20ca2996ccc742a5ce29ba0539e5d, type: 3}
+    - {fileID: 4900000, guid: 6b31b2d2a21d0894caeaa87898355ff7, type: 3}
+    - {fileID: 4900000, guid: 47a97693395a0c34aa0ae1e0134965e6, type: 3}
+  - worldName: Mars
+    worldPrefab: {fileID: 1288793558353234, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 694729985b0abd44888129a1dd4e18e8, type: 2}
+    horizontalOutPlatformColor: {r: 0.8490566, g: 0.1949091, b: 0.1949091, a: 0}
+    horizontalInPlatformColor: {r: 0.57861626, g: 0.13646601, b: 0.13646601, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.3
+    levels:
+    - {fileID: 4900000, guid: 4f6a60e434d58c64297af3d7d77053bc, type: 3}
+    - {fileID: 4900000, guid: 65941c5e9f0a52f498303c66c723f7cb, type: 3}
+    - {fileID: 4900000, guid: a8692f666effed14a872f56b02303d23, type: 3}
+    - {fileID: 4900000, guid: 9c0f548f86f514c43bf6b04a743e7125, type: 3}
+    - {fileID: 4900000, guid: 972da9ffa430cc74da837169f284d4ac, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.5345911, g: 0.27401993, b: 0.5156786, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: Saturn
+    worldPrefab: {fileID: 1377197793697218, guid: b4201d402613a4464b35c805dafcca62, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 8c6ff017b0d71cb4fbd6f571e70f6353, type: 2}
+    horizontalOutPlatformColor: {r: 0.9685534, g: 0.84520525, b: 0.6548395, a: 0}
+    horizontalInPlatformColor: {r: 0.59119487, g: 0.51843417, b: 0.40342537, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.1
+    levels:
+    - {fileID: 4900000, guid: dbc96679f43f9e049882ff41dcab676b, type: 3}
+    - {fileID: 4900000, guid: 0add8172da9bf2b40b7a208e7ea663de, type: 3}
+    - {fileID: 4900000, guid: 527bfc0ee60a0c74ebca394441951285, type: 3}
+    - {fileID: 4900000, guid: 54d511d8e458a6b488163bfde1a24bb9, type: 3}
+    - {fileID: 4900000, guid: 341da3d786216e64e97ed9dafaabbad6, type: 3}
+    - {fileID: 4900000, guid: ec0b06d993c7d7c4482ff121edc779c8, type: 3}
+    - {fileID: 4900000, guid: 0d3ef770e65148f4e82895a1eb335db7, type: 3}
+    - {fileID: 4900000, guid: 816678ba423e6f1459c3d010017c06b9, type: 3}
+    - {fileID: 4900000, guid: 86bb24d994252704480a6f4fe83d60c8, type: 3}
+    - {fileID: 4900000, guid: 127306c08ab67cf498124d64f4a59d5c, type: 3}
+  - worldName: Jupiter
+    worldPrefab: {fileID: 1526814149960808, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 36fd8ce18af02874390a40f94505e53c, type: 2}
+    horizontalOutPlatformColor: {r: 0.9748427, g: 0.6156267, b: 0.3831928, a: 0}
+    horizontalInPlatformColor: {r: 0.5849056, g: 0.36637905, b: 0.22623703, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: e456d2f29427f3246a8f7a483e9c2e83, type: 3}
+    - {fileID: 4900000, guid: d697105f6313c0d4e94290de9b8fe3fc, type: 3}
+    - {fileID: 4900000, guid: 0c8a3bba6bfc44b419a72c65d766df16, type: 3}
+    - {fileID: 4900000, guid: fa6233073b5fa7b41ba71563667a4459, type: 3}
+    - {fileID: 4900000, guid: d03705363015b9c4bab8e65598b4d758, type: 3}
+    - {fileID: 4900000, guid: a80d598dc18fdbb4abba315f51ede513, type: 3}
+    - {fileID: 4900000, guid: fbb9766c40258ed4bb727a382460cab3, type: 3}
+    - {fileID: 4900000, guid: 516d8a9d13f8e5845917551d8c57f8a9, type: 3}
+    - {fileID: 4900000, guid: 189c872e5e40a544e8be5d47e90f1e06, type: 3}
+    - {fileID: 4900000, guid: 20d49317843323045aa8010929808c10, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: Mercury
+    worldPrefab: {fileID: 1856687845478954, guid: ab152f61198d54532ae39108e616ff59, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 0d3020be938fcfd41ab033f1ce9a1964, type: 2}
+    horizontalOutPlatformColor: {r: 0.98742133, g: 0.90012705, b: 0.52476156, a: 0}
+    horizontalInPlatformColor: {r: 0.61635214, g: 0.5544543, b: 0.29654673, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: b02bdc19e06bcd8418c4b0c2671b67f0, type: 3}
+    - {fileID: 4900000, guid: dcdc50d9d90f44b469d83469ee5a2c0a, type: 3}
+    - {fileID: 4900000, guid: bd5afe6873b9edb41b85244cb1e92397, type: 3}
+    - {fileID: 4900000, guid: 4da1098ed3806ae4998e856f6e8dcf8d, type: 3}
+    - {fileID: 4900000, guid: 0f35612e5869b034295ce657b3cc69f3, type: 3}
+    - {fileID: 4900000, guid: f11fe1bd9fc226a40a9969c5c4ce450b, type: 3}
+    - {fileID: 4900000, guid: 39248bd1e9f4dc0448b12ca64a30bef0, type: 3}
+    - {fileID: 4900000, guid: cab637ed7ea15e14797d2256be1b21c1, type: 3}
+    - {fileID: 4900000, guid: 04b47f32a87eb9949b1167d52bc72c8b, type: 3}
+    - {fileID: 4900000, guid: c4c7683a7d5d38344b3c97aa593f4d24, type: 3}
+  - worldName: Uranus
+    worldPrefab: {fileID: 1014736895960144, guid: c91342f6e3afc48fd958056404ead345, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 56e106759b01a9e4fbe39a2369322d50, type: 2}
+    horizontalOutPlatformColor: {r: 0.50532013, g: 0.72442, b: 0.91823894, a: 0}
+    horizontalInPlatformColor: {r: 0.31495976, g: 0.45222226, b: 0.57232696, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 5fd4f3ca267d09649b75b28022364bda, type: 3}
+    - {fileID: 4900000, guid: 494b2f4c6676385409989d016f237bc1, type: 3}
+    - {fileID: 4900000, guid: 82f3f0a8af678944aade266ac3ec3522, type: 3}
+    - {fileID: 4900000, guid: a464177e46ec3904ea45043cfce09297, type: 3}
+    - {fileID: 4900000, guid: 999120b132fa73b4c8ede491777fa5f8, type: 3}
+    - {fileID: 4900000, guid: 71332454bca3fc64e9534566a7138a80, type: 3}
+    - {fileID: 4900000, guid: e353054882ec73d4aa7a2f19d0aa6bb5, type: 3}
+    - {fileID: 4900000, guid: 178dd644134a14645a53c2f5cbc7f9b7, type: 3}
+    - {fileID: 4900000, guid: 6ec87ef08a3d32a4099076b0d8c8dfd9, type: 3}
+    - {fileID: 4900000, guid: 2b325733d93da1f4bb18a06b03d12df6, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: Pluto
+    worldPrefab: {fileID: 1901559596380486, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 6f28eaf6a4807884f843441f14b2a319, type: 2}
+    horizontalOutPlatformColor: {r: 0.91194963, g: 0.7006685, b: 0.4617103, a: 0}
+    horizontalInPlatformColor: {r: 0.5471698, g: 0.4235516, b: 0.2839088, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: bfb98b958e623fd4da38e6f3425b1576, type: 3}
+    - {fileID: 4900000, guid: c86a28123e1f5804ca18c63413a41870, type: 3}
+    - {fileID: 4900000, guid: cdb64ac8df228604a92d1e45ec55d54a, type: 3}
+    - {fileID: 4900000, guid: 0a2738bc078663e438cbb0fdf60bd1d3, type: 3}
+    - {fileID: 4900000, guid: 5dac98ac104a5464e962d0d629c551bc, type: 3}
+    - {fileID: 4900000, guid: 4e2b2cc906f3c2444ac2f7535166562b, type: 3}
+    - {fileID: 4900000, guid: c16b7fe85b7579342b8e84959f0d7ca8, type: 3}
+    - {fileID: 4900000, guid: 47455cbc07a603b4a9829bc6101aa5b0, type: 3}
+    - {fileID: 4900000, guid: 8ddde5fe0622d76499e1cf0c8395a082, type: 3}
+    - {fileID: 4900000, guid: 5c7df0f85e0200f439e0a44f39fff6a5, type: 3}
+    - {fileID: 4900000, guid: fadd195d3bcaaaa4a85e26ee8cea9646, type: 3}
+    - {fileID: 4900000, guid: 22c8f12c3f2d0c349971ca7a277e8453, type: 3}
+    - {fileID: 4900000, guid: 4436bb05653229c42972828b9891aaf8, type: 3}
+    - {fileID: 4900000, guid: 43b344603dbdc9f4aa4505b82fd128e4, type: 3}
+    - {fileID: 4900000, guid: ee538808d6bdc8a418b27d47dc23ec52, type: 3}
+  - worldName: Venus
+    worldPrefab: {fileID: 1647581975099426, guid: 835acc1a9ebe24c0fa3854c99346f9cd, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 2013c84014eba1245800e153bfd68965, type: 2}
+    horizontalOutPlatformColor: {r: 1, g: 0.75294125, b: 0, a: 0}
+    horizontalInPlatformColor: {r: 0.5597484, g: 0.42145768, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 25661848ff4bf3742a8c79b96cfc8ccd, type: 3}
+    - {fileID: 4900000, guid: cba4ea0f8a1c57743be0ec3ef8d435f3, type: 3}
+    - {fileID: 4900000, guid: 00d7ba4bdd8bca543a3023118832d20e, type: 3}
+    - {fileID: 4900000, guid: e9b85d118aac18b47bbb76bcce20ee63, type: 3}
+    - {fileID: 4900000, guid: 8ea3730039ac2f14b91bf6990b4cd7df, type: 3}
+    - {fileID: 4900000, guid: 1f178417911803d429f124230464865a, type: 3}
+    - {fileID: 4900000, guid: f9e1f218eeb447343ae0adfa91fe5eaf, type: 3}
+    - {fileID: 4900000, guid: 38edce1c95d7ad94b92ffe1e71a1b894, type: 3}
+    - {fileID: 4900000, guid: f111099b33a2a2448856b19a9d35cd8b, type: 3}
+    - {fileID: 4900000, guid: a1a58e9c7aa653e4e9b14f6c93be3c4a, type: 3}
+    - {fileID: 4900000, guid: fc67749c4042a514a984500ad9cbf6e7, type: 3}
+    - {fileID: 4900000, guid: e109d0ae61092bd4b963a871a9f2ee97, type: 3}
+    - {fileID: 4900000, guid: f280f1ed5873bee4bb05a396dd5b1a28, type: 3}
+    - {fileID: 4900000, guid: 08624838cb1bd064db85729f59ae2fe5, type: 3}
+    - {fileID: 4900000, guid: 653bf84b4259a204ba463dbba177338b, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: Neptune
+    worldPrefab: {fileID: 1610884164528438, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.4559747, g: 0.6169072, b: 0.91194963, a: 0}
+    horizontalInPlatformColor: {r: 0.28074434, g: 0.36969912, b: 0.5345911, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 6210c1af4c6c3364c94be2e805c7f4b4, type: 3}
+    - {fileID: 4900000, guid: d77112dc673018f479642d15a050903e, type: 3}
+    - {fileID: 4900000, guid: 5a61de144939b3f4f9691eecb495a8e1, type: 3}
+    - {fileID: 4900000, guid: 638d2888d1298fb45bb89a0db6124866, type: 3}
+    - {fileID: 4900000, guid: 5d027f727d5668a469db642b7c867ecc, type: 3}
+    - {fileID: 4900000, guid: 0ea04317c39e02a4880a3afc108ce44f, type: 3}
+    - {fileID: 4900000, guid: e410b573eb9b6604b9fdc805e761a200, type: 3}
+    - {fileID: 4900000, guid: f207726d5da34fd498fb7db1f4bab5ea, type: 3}
+    - {fileID: 4900000, guid: 496a50e8837e2f64dbd40b56ffbf0740, type: 3}
+    - {fileID: 4900000, guid: eba60370241ff4541b7fd647cc96136f, type: 3}
+    - {fileID: 4900000, guid: 809163ca16a30f943b569f120d4994dd, type: 3}
+    - {fileID: 4900000, guid: b6bdeed3da04d834b9468606c65f2618, type: 3}
+    - {fileID: 4900000, guid: a14c86a01447788469328ad944c7f44a, type: 3}
+    - {fileID: 4900000, guid: 5b798774886455f4daaea1814c303eba, type: 3}
+    - {fileID: 4900000, guid: 345dc8bc19c23d34eb3a3cf9e8992f3c, type: 3}
+  - worldName: Sun
+    worldPrefab: {fileID: 1066320961419670, guid: ec1861462fc1b46f1a1c1c3c0f1f7f15, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.77647066, g: 0.34901962, b: 0.06666667, a: 0}
+    horizontalInPlatformColor: {r: 0.45911938, g: 0.21132506, b: 0.047644414, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: af7305c55d7a69b4c9db6366f1d96a3e, type: 3}
+    - {fileID: 4900000, guid: 7a090cdb2c2d72d47b4526ae56455317, type: 3}
+    - {fileID: 4900000, guid: e9f2f5ea9ff679649bb61e6fe676aa63, type: 3}
+    - {fileID: 4900000, guid: 6a21e782b16ee544896d332068a10fd9, type: 3}
+    - {fileID: 4900000, guid: 5dac5db98eebc70458ef690b328fc159, type: 3}
+    - {fileID: 4900000, guid: d3c176a3c47b8f745a50b093b2efc02e, type: 3}
+    - {fileID: 4900000, guid: 1ef35c1722c65b0468ffbb98035ba281, type: 3}
+    - {fileID: 4900000, guid: bc23b5feed7bac84e9162832b83b0c7a, type: 3}
+    - {fileID: 4900000, guid: cb7779d0c3043f64c9882fa9a567b922, type: 3}
+    - {fileID: 4900000, guid: 43c923bb025c58948b56fc336154c87d, type: 3}
+    - {fileID: 4900000, guid: e659ce7c3a5d3454d8cb8423c1a69ae4, type: 3}
+    - {fileID: 4900000, guid: 7a9aca6e1c0e02e4ba5ed779c413bea1, type: 3}
+    - {fileID: 4900000, guid: 914e535e4e1923c40a6c76ed2bc7f5d6, type: 3}
+    - {fileID: 4900000, guid: be6354b91be40fa4aa95c302c264002a, type: 3}
+    - {fileID: 4900000, guid: fdf6a8e467cf0d6438d26b654c79665a, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: -----Planet 1-----
+    worldPrefab: {fileID: 4777607637523266697, guid: 29a3c3cd339e03e42a1200758d44b9e7, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.49375415, g: 1, b: 0, a: 0}
+    horizontalInPlatformColor: {r: 0.24550487, g: 0.49685526, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 4599e3862a7e77e41a9445f1c2f3ae82, type: 3}
+    - {fileID: 4900000, guid: 964ecb1356efc5649add1677f6d7e8ad, type: 3}
+    - {fileID: 4900000, guid: cb6c895401ea256449c4fcc1e9b4d96a, type: 3}
+    - {fileID: 4900000, guid: 6347b2cad8b3f444391093332693008c, type: 3}
+    - {fileID: 4900000, guid: 88b3a18c152ddbc45a93c6e9c93d9b88, type: 3}
+    - {fileID: 4900000, guid: 519c36899707d6c41a0a7296970575b5, type: 3}
+    - {fileID: 4900000, guid: 52f53e094badd95478edaf4b65970506, type: 3}
+    - {fileID: 4900000, guid: 774cc7d5597196b4891f4706643fea21, type: 3}
+    - {fileID: 4900000, guid: adbd9212240e02e4b81d3b36740c61a1, type: 3}
+    - {fileID: 4900000, guid: 47adbc30472a3c74b9f70a898196d7f2, type: 3}
+    - {fileID: 4900000, guid: 018342f965e1303428bd9abbea968180, type: 3}
+    - {fileID: 4900000, guid: 7453e855a6ef00248aea8fac376a68b4, type: 3}
+    - {fileID: 4900000, guid: b72079da5c153a14d8a5fc6abc8bfb8c, type: 3}
+    - {fileID: 4900000, guid: 75ff52b6a46a8f5409c65977b6072436, type: 3}
+    - {fileID: 4900000, guid: 223056b9b4c994849bfa4260f851dbfc, type: 3}
+    - {fileID: 4900000, guid: 856f33f5beb79b941bd1fdf3a44068af, type: 3}
+    - {fileID: 4900000, guid: bfb05f075429d754da40831cb6d5c118, type: 3}
+    - {fileID: 4900000, guid: fa74760f5fc1c3942a39b3a83d167935, type: 3}
+    - {fileID: 4900000, guid: 73e53a26478ac894bb8be3ddceb67349, type: 3}
+    - {fileID: 4900000, guid: f09cc33b239f41f44af6d173c1a4b777, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: -----Planet 2-----
+    worldPrefab: {fileID: 6982305513403206883, guid: 4b9931a5bfc026147ac946939d518f14, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.49375415, g: 1, b: 0, a: 0}
+    horizontalInPlatformColor: {r: 0.22064364, g: 0.44654083, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: ae1313d4e96d3994a8dfa57e44034bea, type: 3}
+    - {fileID: 4900000, guid: 024ebff34346ee345b28d8bfd350bb5b, type: 3}
+    - {fileID: 4900000, guid: ecb8d2be83ddff34ab88cc42ff038bbb, type: 3}
+    - {fileID: 4900000, guid: 5c60da21db509f74d90b4c044ec95047, type: 3}
+    - {fileID: 4900000, guid: 3bf6a771bdf7b4e47bc348cc572b7ce8, type: 3}
+    - {fileID: 4900000, guid: 223d6b6a6db4161469910af77cb99053, type: 3}
+    - {fileID: 4900000, guid: 4984791e55dc0df4da50b69a1ba7fa1d, type: 3}
+    - {fileID: 4900000, guid: 78e990c0aeee27a46a628cbf531bbfbe, type: 3}
+    - {fileID: 4900000, guid: c9ac55f18360cee4ba46516400c3bfba, type: 3}
+    - {fileID: 4900000, guid: 5b27acf1270ea3848bdb2b37efa9d791, type: 3}
+    - {fileID: 4900000, guid: 879b5382dd7e08c46a3c4ff260edf260, type: 3}
+    - {fileID: 4900000, guid: 2669ef999221b5b4681d552cb28facdc, type: 3}
+    - {fileID: 4900000, guid: 670373aa1116fb846a482d168c8c44f4, type: 3}
+    - {fileID: 4900000, guid: 0fe9ddb2c4d37954a8e825ab7b26652e, type: 3}
+    - {fileID: 4900000, guid: c7f1b1475e31ee14ba2c78a0a02692e7, type: 3}
+    - {fileID: 4900000, guid: bf78dd9521440f04d92e22603aae8ae6, type: 3}
+    - {fileID: 4900000, guid: ba9f6429866c4ab478687a5207fd0384, type: 3}
+    - {fileID: 4900000, guid: b9ca53292c30c874ead8202f051098f3, type: 3}
+    - {fileID: 4900000, guid: e259066a84fe2cb44b219f66c02337d6, type: 3}
+    - {fileID: 4900000, guid: 2f461c16f6b11d74e9570ce53cb13ed4, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: -----Planet 3-----
+    worldPrefab: {fileID: 5020930809117864878, guid: d9216a7f22d7e3c4da082e0fb31fb50d, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.49375415, g: 1, b: 0, a: 0}
+    horizontalInPlatformColor: {r: 0.21442837, g: 0.4339623, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 9acbbc81116dc8845a51a9d0f75fd0d5, type: 3}
+    - {fileID: 4900000, guid: 2f7a3325c4d699840b2f60a6265ef3ec, type: 3}
+    - {fileID: 4900000, guid: e878ec77d634be248bbf4d27b7812494, type: 3}
+    - {fileID: 4900000, guid: 5854e8bfa927bd247baddcc603418223, type: 3}
+    - {fileID: 4900000, guid: c67376096f86bd04aaaa9dab3cb67a47, type: 3}
+    - {fileID: 4900000, guid: 71c46fb0ae1d26148a0ac3ed508e7b38, type: 3}
+    - {fileID: 4900000, guid: 045616fbe347990499666f53878cef50, type: 3}
+    - {fileID: 4900000, guid: e632e4f2f4242d94b9f96883e8ef40a8, type: 3}
+    - {fileID: 4900000, guid: 31d92052763241f4f910a120787cdb2e, type: 3}
+    - {fileID: 4900000, guid: dc8df1f7a66e4f248a3e6b8441cde713, type: 3}
+    - {fileID: 4900000, guid: 19a0ed612c47c104cafd40d9d61a3d8a, type: 3}
+    - {fileID: 4900000, guid: 6d27e052cd8612f4c9bd46dec168c653, type: 3}
+    - {fileID: 4900000, guid: bdd5eff57cbee3742b671b3bccf1ad45, type: 3}
+    - {fileID: 4900000, guid: 8d59ce00ab0025b4989ccc245f8a7422, type: 3}
+    - {fileID: 4900000, guid: fb9a9b4852bfba2418a58d9d9e39568c, type: 3}
+    - {fileID: 4900000, guid: 45f47118d72b9bc41810d5fbbfb9d0cc, type: 3}
+    - {fileID: 4900000, guid: c915cc0261b3c0046bf86bb838c7392b, type: 3}
+    - {fileID: 4900000, guid: b510154a286afab4c93caeb77fd04171, type: 3}
+    - {fileID: 4900000, guid: 08b9b8a06bf2c4e4796ce5bbcefab5df, type: 3}
+    - {fileID: 4900000, guid: a1b4ac06b859ebb45b05dcfb07fdcbac, type: 3}
+  - worldName: Asteroid
+    worldPrefab: {fileID: 4555850366903800549, guid: 8d3e77d4ee319e54281027c289b1839d, type: 3}
+    worldRotation: {x: 1, y: 2, z: 1}
+    collectableChances: {fileID: 11400000, guid: 6f20aae0c296b514585e92754ba9e3ad, type: 2}
+    horizontalOutPlatformColor: {r: 0.68235296, g: 0.6666667, b: 0.6666667, a: 0}
+    horizontalInPlatformColor: {r: 0.53333336, g: 0.27450982, b: 0.5137255, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0.127
+    levels:
+    - {fileID: 4900000, guid: 81c2bf4e481f43244a6971fdb4bc323e, type: 3}
+    - {fileID: 4900000, guid: a9ef1184e2dd7d548b97d8439a867d39, type: 3}
+    - {fileID: 4900000, guid: 17e7021316cfe9e49b88b357378508ce, type: 3}
+    - {fileID: 4900000, guid: bb0323c93c276e74290c7fc3f6b4aa30, type: 3}
+    - {fileID: 4900000, guid: fc6907f541fbd444eb8941975cede33e, type: 3}
+  - worldName: -----Planet 4-----
+    worldPrefab: {fileID: 116159484674446087, guid: 693c0c0e348f84b4799e46925ee15d17, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.49375415, g: 1, b: 0, a: 0}
+    horizontalInPlatformColor: {r: 0.18645944, g: 0.3773585, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 0.23921569, g: 0.19215687, b: 0.8509804, a: 0}
+    verticalInPlatformColor: {r: 0.3019608, g: 0.30588236, b: 0.72156864, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 1994db33fc35e284db7706a7aac881f2, type: 3}
+    - {fileID: 4900000, guid: 87f4b997abffd6d438153de1c5e1c5e3, type: 3}
+    - {fileID: 4900000, guid: 9c208f01fc44d19478e99ed466257a0f, type: 3}
+    - {fileID: 4900000, guid: 3b8076bc21430054b93ce29df3159eae, type: 3}
+    - {fileID: 4900000, guid: cfb38df9a134af64380b9c361cea0ed7, type: 3}
+    - {fileID: 4900000, guid: f48999fc913f47241a4d99e95a410335, type: 3}
+    - {fileID: 4900000, guid: d4438fb1d3543e140903becc66c617de, type: 3}
+    - {fileID: 4900000, guid: d60d328ee2fe61f4d90259345b8bc535, type: 3}
+    - {fileID: 4900000, guid: f6603dddaad6c4a4fbb647566103c203, type: 3}
+    - {fileID: 4900000, guid: 65a94a996032d194fa4dd43cae34021c, type: 3}
+    - {fileID: 4900000, guid: d6f3c1873784d87478510a6503e661f5, type: 3}
+    - {fileID: 4900000, guid: 4c5db648ea50e8b419c8a4df263bdb56, type: 3}
+    - {fileID: 4900000, guid: 4298bf9a3ee47884593f47d8baf7015c, type: 3}
+    - {fileID: 4900000, guid: 12b39ad7f53317a428f3df93f4e62188, type: 3}
+    - {fileID: 4900000, guid: 0e5a12fa97d7f4548be1bb4db1129b89, type: 3}
+    - {fileID: 4900000, guid: eb2a6220cdb56c644a4bb40646252866, type: 3}
+    - {fileID: 4900000, guid: d3c75c9105aa2f744aa51fda0bb668f6, type: 3}
+    - {fileID: 4900000, guid: 031182a4c6ab9c048986ee1528b3ff2d, type: 3}
+    - {fileID: 4900000, guid: 2b39ac389c327d04aacb9dcdf3f15dea, type: 3}
+    - {fileID: 4900000, guid: 7168157c5bceb484c986cb3890db8841, type: 3}
+  - worldName: Test
+    worldPrefab: {fileID: 1066320961419670, guid: ec1861462fc1b46f1a1c1c3c0f1f7f15, type: 3}
+    worldRotation: {x: 0, y: 1, z: 0}
+    collectableChances: {fileID: 11400000, guid: 21201305838146249bf49b7651021427, type: 2}
+    horizontalOutPlatformColor: {r: 0.8113208, g: 0.59863895, b: 0.22579211, a: 0}
+    horizontalInPlatformColor: {r: 0, g: 0, b: 0, a: 0}
+    verticalOutPlatformColor: {r: 1, g: 0, b: 0, a: 0}
+    verticalInPlatformColor: {r: 0, g: 0, b: 0, a: 0}
+    aplhaValue: 0
+    levels:
+    - {fileID: 4900000, guid: 1662a57e2a3ae63449767caba4414206, type: 3}
+    - {fileID: 4900000, guid: ff08bdcbd91d3c54e91da942c07399e8, type: 3}
